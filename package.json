@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "node-cron": "^3.0.0",
+    "node-schedule": "^2.1.0",
+    "uuid": "^8.3.2"
+  },
+  "name": "mac_001-api-js",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
