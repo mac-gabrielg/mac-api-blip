@@ -1,4 +1,7 @@
-import express from "express";
+// import express from "express";
+// const app = express();
+
+const express = require('express');
 const app = express();
 
 app.get("/", (req, res) => {
@@ -7,8 +10,10 @@ app.get("/", (req, res) => {
   });
 });
 
-const port = 3000;
+const port = 30003;
 
 app.listen(port, () => {
   console.log(`Server is up on port ${port}`);
 });
+
+
